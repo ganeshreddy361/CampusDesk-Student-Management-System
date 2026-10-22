@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and backups
+*.db
+*.sqlite
+*.sqlite3
+backend/backups/
+
+# Frontend
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Private signing key
+backend/auth_secret.key
+
+# Local source backups
+*.bak
+*.before_*
+*.pre_branch_backup
